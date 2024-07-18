@@ -44,4 +44,4 @@ release-job:
           url: '${CI_PROJECT_URL}/-/jobs/${JOB_ID}/artifacts/file/logs.txt'
           filepath: '/export/logs.txt'
   only:
-    - master
+    - main
